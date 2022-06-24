@@ -26,6 +26,10 @@ markdown_extensions:
 - admonition
 - pymdownx.details
 - pymdownx.superfences
+- attr_list
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_javascript:
   - assets/js/hljs/highlight.pack.js
@@ -40,6 +44,9 @@ nav:
   - "Home": "index.md"
   - "Ways of Working":
     - "Home": "ways-of-working/index.md"
+    - "Working with others":
+      - "Home": "ways-of-working/working-with-others/index.md"
+      - "Service owners from across Defence": "ways-of-working/working-with-others/service-owners-in-the-business.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
   - "People, skills and standards":
     - "Digital communities": 
